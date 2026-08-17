@@ -27,66 +27,17 @@ footer{position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-top:2p
 </head>
 <body>
 <header><small>✦ הזמנה ✦</small><h1>א.מ.ש</h1></header>
-<div class="wrap">
-<div class='row'><span>מרובע 25</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מרובע 20</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מרובע 15</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>ליפתניה מרובע 10</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מרקיה מרובע 15</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>עגול 25</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>עגול 20</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>עגול 15</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>ליפתניה 10</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מרקיה 15</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>סירה 14-16</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>סירה 18</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>קונוס 14-16</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>קונוס 18</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מלבן 11/16</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מלבן 14/19</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מלבן 16/24</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מלבן 26/34</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מלבן 27/37 ידיות</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מגש 30/55</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>קערה סלט 24/31</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מגש אובלי 25/35</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>מגש אובלי 36</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>קשים 8 מ״מ חום</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>קנו 20</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<div class='row'><span>קנו 30</span><div class='q'><button onclick='chg(this,-1)'>−</button><input type='number' min='0' value='0' inputmode='numeric' pattern='[0-9]*'><button onclick='chg(this,1)'>+</button></div></div>
-<textarea id="notes" placeholder="הערות להזמנה..."></textarea>
-<div class="warn">‼️ דווח חוסרים בהקדם האפשרי ‼️</div>
-</div>
+<div class="wrap" id="products"></div>
+<div class="wrap"><textarea id="notes" placeholder="הערות להזמנה..."></textarea><div class="warn">‼️ דווח חוסרים בהקדם האפשרי ‼️</div></div>
 <footer><div><b id="count">0</b> פריטים</div><button class="send" onclick="sendOrder()">שלח הזמנה</button></footer>
 <script>
 const PHONE='972544274897';
-function chg(btn,d){
-  const i=btn.parentElement.querySelector('input');
-  i.value=Math.max(0,(parseInt(i.value)||0)+d);
-  refresh();
-}
-document.querySelectorAll('input').forEach(i=>i.addEventListener('input',refresh));
-function refresh(){
-  let t=0;
-  document.querySelectorAll('.row input').forEach(i=>t+=parseInt(i.value)||0);
-  document.getElementById('count').textContent=t;
-}
-function sendOrder(){
-  const lines=['🛒 *הזמנה - א.מ.ש*','📅 '+new Date().toLocaleDateString('he-IL'),'─────────────────'];
-  let total=0;
-  document.querySelectorAll('.row').forEach(r=>{
-    const q=parseInt(r.querySelector('input').value)||0;
-    if(q>0){
-      lines.push('• '+r.querySelector('span').textContent+': *'+q+'*');
-      total+=q;
-    }
-  });
-  if(!total){alert('לא נבחרו פריטים');return;}
-  const n=document.getElementById('notes').value.trim();
-  if(n)lines.push('','📝 *הערות:* '+n);
-  lines.push('','─────────────────','✅ סה״כ: *'+total+' פריטים*','','‼️ *דווח חוסרים בהקדם האפשרי* ‼️','','*אשר*');
-  location.href='https://wa.me/'+PHONE+'?text='+encodeURIComponent(lines.join('\n'));
-}
+const PRODUCTS=['מרובע 25','מרובע 20','מרובע 15','ליפתניה מרובע 10','מרקיה מרובע 15','עגול 25','עגול 20','עגול 15','ליפתניה 10','מרקיה 15','סירה 14','סירה 16','סירה 18','קונוס 14','קונוס 16','קונוס 18','מלבן 11/16','מלבן 14/19','מלבן 16/24','מלבן 26/34','מלבן 27/37 ידיות','מגש 30/55','קערה סלט 24/31','מגש אובלי 25/35','מגש אובלי 36','קשים 8 מ״מ חום','קנו 20','קנו 30'];
+const wrap=document.getElementById('products');
+PRODUCTS.forEach(p=>{const r=document.createElement('div');r.className='row';const n=document.createElement('span');n.textContent=p;const q=document.createElement('div');q.className='q';const m=document.createElement('button');m.type='button';m.textContent='−';m.onclick=()=>chg(m,-1);const i=document.createElement('input');i.type='number';i.min='0';i.value='0';i.inputMode='numeric';i.setAttribute('pattern','[0-9]*');i.addEventListener('input',refresh);const b=document.createElement('button');b.type='button';b.textContent='+';b.onclick=()=>chg(b,1);q.append(m,i,b);r.append(n,q);wrap.appendChild(r)});
+function chg(btn,d){const i=btn.parentElement.querySelector('input');i.value=Math.max(0,(parseInt(i.value)||0)+d);refresh()}
+function refresh(){let t=0;document.querySelectorAll('.row input').forEach(i=>t+=parseInt(i.value)||0);document.getElementById('count').textContent=t}
+function sendOrder(){const lines=['🛒 *הזמנה - א.מ.ש*','📅 '+new Date().toLocaleDateString('he-IL'),'─────────────────'];let total=0;document.querySelectorAll('.row').forEach(r=>{const q=parseInt(r.querySelector('input').value)||0;if(q>0){lines.push('• '+r.querySelector('span').textContent+': *'+q+'*');total+=q}});if(!total){alert('לא נבחרו פריטים');return}const n=document.getElementById('notes').value.trim();if(n)lines.push('','📝 *הערות:* '+n);lines.push('','─────────────────','✅ סה״כ: *'+total+' פריטים*','','‼️ *דווח חוסרים בהקדם האפשרי* ‼️','','*אשר*');location.href='https://wa.me/'+PHONE+'?text='+encodeURIComponent(lines.join('\n'))}
 </script>
 </body>
 </html>
